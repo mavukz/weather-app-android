@@ -27,6 +27,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
         setContent {
             var color by remember { mutableStateOf(Color.Green) }
 
@@ -46,7 +47,7 @@ class MainActivity : ComponentActivity() {
                         )
                         Button(
                             onClick = {
-                                color = Color.Red
+                                color = Color.Magenta
                             },
                             colors = ButtonDefaults.buttonColors(
                                 containerColor = Color.Red,
