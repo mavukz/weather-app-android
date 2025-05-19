@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Text(
-                            text = "Hello Njabulo!",
+                            text = "Hello World",
                             textAlign = TextAlign.Left
                         )
                         Button(
